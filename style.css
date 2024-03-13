@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  #banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), #ffd6d6),
+      url(images/background\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 105vh;
+  }
+  .navbar {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+  }
+  .nav {
+    flex: 1;
+    text-align: right;
+  }
+  nav ul {
+    list-style: none;
+    margin-left: 150px;
+  }
+  nav ul li {
+    display: inline-block;
+    text-align: right;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: rgb(87, 85, 85);
+  }
+  .cart {
+    align-items: center;
+    color: rgb(87, 85, 85);
+    margin-bottom: 3px;
+    margin-left: 500px;
+  }
+  .cart img {
+    cursor: pointer;
+  }
+  .content {
+    text-align: center;
+    padding-top: 160px;
+  }
+  .content h1 {
+    font-size: 80px;
+    color: rgb(104, 101, 104);
+    font-family: "Kaushan Script", cursive;
+  }
+  #interior {
+    color: #ffd6d6;
+    font-family: "Kaushan Script", cursive;
+  }
+  .content p {
+    font-size: 20px;
+    color: rgb(104, 101, 104);
+  }
+  .btn {
+    margin-top: 40px;
+  }
+  .btn a {
+    display: inline-block;
+    width: 150px;
+    background: transparent;
+    margin-left: 10px;
+    border: 0.5px solid rgb(104, 101, 104);
+    padding: 10px 0;
+    text-decoration: none;
+    color: #575151;
+  }
+  
+  .btn a:hover {
+    color: #575151;
+    background-color: #ffd6d6;
+  }
+  .category {
+    margin: 40px auto;
+  }
+  .category-text {
+    text-align: center;
+  }
+  .category-text h2 {
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: rgb(87, 85, 85);
+    font-family: "Kaushan Script", cursive;
+  }
+  .category-text p {
+    color: rgb(87, 85, 85);
+    font-family: "Kaushan Script", cursive;
+  }
+  .features {
+    display: flex;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 260px;
+  }
+  .features img {
+    width: 250px;
+    border-radius: 4px;
+  }
+  .kitchen {
+    margin-right: 40px;
+  }
+  .kitchen h3 {
+    color: rgb(87, 85, 85);
+    margin-bottom: 15px;
+    font-family: "Kaushan Script", cursive;
+  }
+  .kitchen img {
+    height: 350px;
+  }
+  .bedroom {
+    margin-right: 40px;
+  }
+  .bedroom h3 {
+    color: rgb(87, 85, 85);
+    margin-bottom: 15px;
+    font-family: "Kaushan Script", cursive;
+  }
+  .bedroom img {
+    height: 350px;
+  }
+  .bathroom {
+    margin-right: 40px;
+  }
+  .bathroom h3 {
+    color: rgb(87, 85, 85);
+    margin-bottom: 15px;
+    font-family: "Kaushan Script", cursive;
+  }
+  .bathroom img {
+    height: 350px;
+  }
+.catalogue{
+    background-color: #ffd6d6;
+    padding: 20px 0;
+    height: 600px;
+}
+.catalogue-text{
+    text-align: center;
+}
+.catalogue-text h2{
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: rgb(87, 85, 85);
+    font-family: "Kaushan Script", cursive;
+}
+.catalogue-images{
+    text-align: center;
+}
+.catalogue-images h3{
+    margin-bottom: 25px;
+    font-size: 25px;
+    color: rgb(87, 85, 85);
+    font-family: "Kaushan Script", cursive;
+}
+.catalogue-images img{
+    width: 300px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#catalogue{
+    background-color: #fff;
+}
+#catalogue-bath{
+    height: 700px;
+}
+footer{
+    text-align: center;
+    font-size: 14px;
+    height: 40px;
+    background-color: rgb(87, 85, 85);
+}
+footer p{
+    position: relative;
+    top: 15px;
+}
